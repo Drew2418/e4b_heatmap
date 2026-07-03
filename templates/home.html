@@ -1,0 +1,5 @@
+{% extends "base.html" %} {% block title %}Home â€” Work Order Tracker{% endblock %} {% block content %}
+Select an Area
+Choose an area of the aircraft to view its work order heat map.
+{% for area in areas %} {{ area.label }} {% endfor %}
+{% endblock %}
