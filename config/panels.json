@@ -1,0 +1,84 @@
+{
+  "overview": {
+    "image": "overview.png",
+    "image_width": 1200,
+    "image_height": 700,
+    "panels": [
+      {"id": "FWD", "label": "Forward Section", "x": 60, "y": 250, "width": 300, "height": 200},
+      {"id": "MID", "label": "Mid Section", "x": 420, "y": 220, "width": 350, "height": 220},
+      {"id": "AFT", "label": "Aft Section", "x": 830, "y": 260, "width": 300, "height": 180}
+    ]
+  },
+  "upper_deck": {
+    "image": "upper_deck.png",
+    "image_width": 1200,
+    "image_height": 700,
+    "panels": [
+      {"id": "UD-1", "label": "Panel UD-1", "x": 100, "y": 150, "width": 250, "height": 150},
+      {"id": "UD-2", "label": "Panel UD-2", "x": 450, "y": 150, "width": 250, "height": 150},
+      {"id": "UD-3", "label": "Panel UD-3", "x": 800, "y": 150, "width": 250, "height": 150}
+    ]
+  },
+  "main_deck": {
+    "image": "main_deck.png",
+    "image_width": 1200,
+    "image_height": 700,
+    "panels": [
+      {"id": "MD-1", "label": "Panel MD-1", "x": 100, "y": 300, "width": 300, "height": 180},
+      {"id": "MD-2", "label": "Panel MD-2", "x": 500, "y": 300, "width": 300, "height": 180},
+      {"id": "MD-3", "label": "Panel MD-3", "x": 850, "y": 300, "width": 250, "height": 180}
+    ]
+  },
+  "lower_lobe": {
+    "image": "lower_lobe.png",
+    "image_width": 1200,
+    "image_height": 700,
+    "panels": [
+      {"id": "LL-1", "label": "Panel LL-1", "x": 150, "y": 400, "width": 300, "height": 150},
+      {"id": "LL-2", "label": "Panel LL-2", "x": 600, "y": 400, "width": 300, "height": 150}
+    ]
+  },
+  "left_wing": {
+    "image": "left_wing.png",
+    "image_width": 1200,
+    "image_height": 700,
+    "panels": [
+      {"id": "LW-1", "label": "Panel LW-1", "x": 100, "y": 250, "width": 300, "height": 150},
+      {"id": "LW-2", "label": "Panel LW-2", "x": 500, "y": 250, "width": 300, "height": 150}
+    ]
+  },
+  "right_wing": {
+    "image": "right_wing.png",
+    "image_width": 1200,
+    "image_height": 700,
+    "panels": [
+      {"id": "RW-1", "label": "Panel RW-1", "x": 100, "y": 250, "width": 300, "height": 150},
+      {"id": "RW-2", "label": "Panel RW-2", "x": 500, "y": 250, "width": 300, "height": 150}
+    ]
+  },
+  "left_horizontal": {
+    "image": "left_horizontal.png",
+    "image_width": 1200,
+    "image_height": 700,
+    "panels": [
+      {"id": "LH-1", "label": "Panel LH-1", "x": 200, "y": 300, "width": 300, "height": 150}
+    ]
+  },
+  "right_horizontal": {
+    "image": "right_horizontal.png",
+    "image_width": 1200,
+    "image_height": 700,
+    "panels": [
+      {"id": "RH-1", "label": "Panel RH-1", "x": 200, "y": 300, "width": 300, "height": 150}
+    ]
+  },
+  "vertical": {
+    "image": "vertical.png",
+    "image_width": 700,
+    "image_height": 1200,
+    "panels": [
+      {"id": "V-1", "label": "Panel V-1", "x": 200, "y": 150, "width": 300, "height": 200},
+      {"id": "V-2", "label": "Panel V-2", "x": 200, "y": 450, "width": 300, "height": 200}
+    ]
+  }
+}
