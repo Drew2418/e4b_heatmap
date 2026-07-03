@@ -1,0 +1,15 @@
+{% extends "base.html" %} {% block title %}{{ area.label }} â€” Work Order Tracker{% endblock %} {% block bodyattrs %}data-area="{{ area.slug }}"{% endblock %} {% block content %}
+← Back to Home
+{{ area.label }}
+No work orders All closed Some open Many open
+{% if image %}
+{% for p in panels %}
+
+{% endfor %}
+{% else %}
+No image configured for this area yet.
+{% endif %}
+Work Orders
+×
+
+{% endblock %}
